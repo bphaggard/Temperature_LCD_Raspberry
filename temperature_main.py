@@ -19,6 +19,6 @@ try:
         time.sleep(2)
 except KeyboardInterrupt:
     LCD1602.clear()
-    LCD1602.message("Measurement stopped", 1)
+    LCD1602.message("Sensor stopped", 1)
     time.sleep(4)
     LCD1602.clear()
